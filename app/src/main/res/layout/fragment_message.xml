@@ -13,6 +13,7 @@
         android:id="@+id/message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints="Enter message"
         android:textSize="20sp"
         android:hint="@string/message_hint"
         android:inputType="textMultiLine"/>
